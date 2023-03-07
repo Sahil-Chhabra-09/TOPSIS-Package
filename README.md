@@ -1,5 +1,7 @@
 # Topsis Score Calculation package
 
+![Laptop Info](https://user-images.githubusercontent.com/122990320/223558087-1d3ebabc-c2f0-4c6c-8fad-7e160f9bc10d.png)
+
 ```pip install topsisGod```
 
 ```from topsisGod import topsis```
@@ -10,9 +12,9 @@ Input: Three parameters
 2. Weights: weight of each attribute, considered to be an integer list
 3. Impact: Considered to be a character list
 
-Weight = [1, 1, 1, 1]
+Weight = [0.7,0.25,0.5,0.23]
 
-Impact = ['+', '-', '-', '+']
+Impact = ['+', '+', '+', '-']
 
 Output: Returns the score of each row
 
