@@ -1,5 +1,9 @@
 # Topsis Score Calculation package
 
+Helps in making multiple criteria decision
+
+Eg: If we have 4 laptops with parameters as : Performance,Battery Life, Price and Weight and we want to find the best based on our requirements<br>We can easily assign weightage to each column in weight vector and impact(which one to maximize('+') or minimize('-') in impact vector and find the rankings of each laptop.
+
 ![Laptop Info](https://user-images.githubusercontent.com/122990320/223558087-1d3ebabc-c2f0-4c6c-8fad-7e160f9bc10d.png)
 
 ```pip install topsisGod```
