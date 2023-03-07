@@ -1,8 +1,8 @@
 # Topsis Score Calculation package
 
->pip install topsisGod
+```pip install topsisGod```
 
->from topsisGod import topsis
+```from topsisGod import topsis```
 
 Input: Three parameters
 
@@ -18,10 +18,8 @@ Output: Returns the score of each row
 
 To calculate the rank based on the score, append the score list as:
 
->score = topsis(data, w, i)
+```score = topsis(data, w, i)```
 
->from topsisGod import rerank
+```from topsisGod import rerank```
 
->rerank(data,score)
-
-Github link : [GitHub]("https://github.com/Sahil-Chhabra-09/TOPSIS-Package")
+```rerank(data,score)```
